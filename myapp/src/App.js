@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import "./App.css";
 
+//JSX javascript and xml (HTML)
+// JSX must be wrapped in ( ); , if it is multiline.
+//JSX must have only one parent tag
 function App() {
+  let id = 100;
+  let name = "Pratik";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hello {name}</h1>
+      <h2>Your Id is {id}</h2>
+      <h3>(for multiline) this is important to wrap code in it</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+        pariatur labore debitis ea explicabo impedit voluptatem perspiciatis
+        quae et non!
+      </p>
     </div>
   );
 }
