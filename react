@@ -1,0 +1,14 @@
+// JSX JAVASCRIPT XML
+// JS + HTML
+//return JSX
+//JSX must be wrapped within () if is it 
+
+function app()
+{
+    return 
+    (
+        <div> 
+        <h1>hello </h1>
+        </div>
+    )
+}

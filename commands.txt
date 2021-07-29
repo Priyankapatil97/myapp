@@ -1,0 +1,24 @@
+
+
+
+
+installing react files for project
+===============================================
+
+- npx create-react-app myapp
+- npm start
+
+
+=========================
+npm --help
+
+npm install bootstrap
+npm uninstall bootstrap
+
+npm install react
+
+- npm cache clean --force
+
+
+
+
